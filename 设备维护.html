@@ -1,0 +1,909 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>设备维护</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/设备维护/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/设备维护/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u375" class="ax_default">
+        <div id="u375_state0" class="panel_state" data-label="State1" style="">
+          <div id="u375_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u376" class="ax_default box_1">
+              <div id="u376_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u377" class="ax_default _三级标题">
+              <div id="u377_div" class=""></div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u378" class="ax_default _三级标题">
+              <div id="u378_div" class=""></div>
+              <div id="u378_text" class="text ">
+                <p><span>维护时间范围：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u379" class="ax_default droplist">
+              <select id="u379_input">
+                <option selected value="2024-09-13 00：00：00 ~ 2024-09-13 23:59:59">2024-09-13 00：00：00 ~ 2024-09-13 23:59:59</option>
+                <option value="...">...</option>
+              </select>
+            </div>
+
+            <!-- 时间范围 (矩形) -->
+            <div id="u380" class="ax_default sticky_3 ax_default_hidden" data-label="时间范围" style="display:none; visibility: hidden">
+              <div id="u380_div" class=""></div>
+              <div id="u380_text" class="text ">
+                <p><span>时间范围可选</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u381" class="ax_default _三级标题">
+              <div id="u381_div" class=""></div>
+              <div id="u381_text" class="text ">
+                <p><span>维护类型：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u382" class="ax_default box_1">
+              <div id="u382_div" class=""></div>
+              <div id="u382_text" class="text ">
+                <p><span>查询</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u383" class="ax_default box_1">
+              <div id="u383_div" class=""></div>
+              <div id="u383_text" class="text ">
+                <p><span>导出</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u384" class="ax_default droplist">
+              <select id="u384_input">
+                <option selected value="更换滤材">更换滤材</option>
+                <option value="清洗喷嘴">清洗喷嘴</option>
+                <option value="检查管道">检查管道</option>
+                <option value="...">...</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (表格) -->
+            <div id="u385" class="ax_default">
+
+              <!-- Unnamed (储存格) -->
+              <div id="u386" class="ax_default table_cell">
+                <img id="u386_img" class="img " src="images/设备维护/u386.png"/>
+                <div id="u386_text" class="text ">
+                  <p><span>序号</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u387" class="ax_default table_cell">
+                <img id="u387_img" class="img " src="images/设备维护/u386.png"/>
+                <div id="u387_text" class="text ">
+                  <p><span>维护类型</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u388" class="ax_default table_cell">
+                <img id="u388_img" class="img " src="images/设备维护/u386.png"/>
+                <div id="u388_text" class="text ">
+                  <p><span>应用日期</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u389" class="ax_default table_cell">
+                <img id="u389_img" class="img " src="images/设备维护/u386.png"/>
+                <div id="u389_text" class="text ">
+                  <p><span>上次维护时间</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u390" class="ax_default table_cell">
+                <img id="u390_img" class="img " src="images/设备维护/u386.png"/>
+                <div id="u390_text" class="text ">
+                  <p><span>维护周期</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u391" class="ax_default table_cell">
+                <img id="u391_img" class="img " src="images/设备维护/u386.png"/>
+                <div id="u391_text" class="text ">
+                  <p><span>维护时间</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u392" class="ax_default table_cell">
+                <img id="u392_img" class="img " src="images/设备维护/u386.png"/>
+                <div id="u392_text" class="text ">
+                  <p><span>是否需要维护</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u393" class="ax_default table_cell">
+                <img id="u393_img" class="img " src="images/设备维护/u393.png"/>
+                <div id="u393_text" class="text ">
+                  <p><span>操作</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u394" class="ax_default table_cell">
+                <img id="u394_img" class="img " src="images/设备维护/u394.png"/>
+                <div id="u394_text" class="text ">
+                  <p><span>1</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u395" class="ax_default table_cell">
+                <img id="u395_img" class="img " src="images/设备维护/u394.png"/>
+                <div id="u395_text" class="text ">
+                  <p><span>xxx</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u396" class="ax_default table_cell">
+                <img id="u396_img" class="img " src="images/设备维护/u394.png"/>
+                <div id="u396_text" class="text ">
+                  <p><span>2024.7.1 17.20</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u397" class="ax_default table_cell">
+                <img id="u397_img" class="img " src="images/设备维护/u394.png"/>
+                <div id="u397_text" class="text ">
+                  <p><span>2024.8.30 17:20</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u398" class="ax_default table_cell">
+                <img id="u398_img" class="img " src="images/设备维护/u394.png"/>
+                <div id="u398_text" class="text ">
+                  <p><span>60天</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u399" class="ax_default table_cell">
+                <img id="u399_img" class="img " src="images/设备维护/u394.png"/>
+                <div id="u399_text" class="text ">
+                  <p><span>2024.10.29 17.20</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u400" class="ax_default table_cell">
+                <img id="u400_img" class="img " src="images/设备维护/u394.png"/>
+                <div id="u400_text" class="text ">
+                  <p><span>否</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u401" class="ax_default table_cell">
+                <img id="u401_img" class="img " src="images/设备维护/u401.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u402" class="ax_default table_cell">
+                <img id="u402_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u403" class="ax_default table_cell">
+                <img id="u403_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u404" class="ax_default table_cell">
+                <img id="u404_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u405" class="ax_default table_cell">
+                <img id="u405_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u406" class="ax_default table_cell">
+                <img id="u406_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u407" class="ax_default table_cell">
+                <img id="u407_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u408" class="ax_default table_cell">
+                <img id="u408_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u409" class="ax_default table_cell">
+                <img id="u409_img" class="img " src="images/设备维护/u409.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u410" class="ax_default table_cell">
+                <img id="u410_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u411" class="ax_default table_cell">
+                <img id="u411_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u412" class="ax_default table_cell">
+                <img id="u412_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u413" class="ax_default table_cell">
+                <img id="u413_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u414" class="ax_default table_cell">
+                <img id="u414_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u415" class="ax_default table_cell">
+                <img id="u415_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u416" class="ax_default table_cell">
+                <img id="u416_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u417" class="ax_default table_cell">
+                <img id="u417_img" class="img " src="images/设备维护/u409.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u418" class="ax_default table_cell">
+                <img id="u418_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u419" class="ax_default table_cell">
+                <img id="u419_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u420" class="ax_default table_cell">
+                <img id="u420_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u421" class="ax_default table_cell">
+                <img id="u421_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u422" class="ax_default table_cell">
+                <img id="u422_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u423" class="ax_default table_cell">
+                <img id="u423_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u424" class="ax_default table_cell">
+                <img id="u424_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u425" class="ax_default table_cell">
+                <img id="u425_img" class="img " src="images/设备维护/u409.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u426" class="ax_default table_cell">
+                <img id="u426_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u427" class="ax_default table_cell">
+                <img id="u427_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u428" class="ax_default table_cell">
+                <img id="u428_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u429" class="ax_default table_cell">
+                <img id="u429_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u430" class="ax_default table_cell">
+                <img id="u430_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u431" class="ax_default table_cell">
+                <img id="u431_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u432" class="ax_default table_cell">
+                <img id="u432_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u433" class="ax_default table_cell">
+                <img id="u433_img" class="img " src="images/设备维护/u409.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u434" class="ax_default table_cell">
+                <img id="u434_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u435" class="ax_default table_cell">
+                <img id="u435_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u436" class="ax_default table_cell">
+                <img id="u436_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u437" class="ax_default table_cell">
+                <img id="u437_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u438" class="ax_default table_cell">
+                <img id="u438_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u439" class="ax_default table_cell">
+                <img id="u439_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u440" class="ax_default table_cell">
+                <img id="u440_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u441" class="ax_default table_cell">
+                <img id="u441_img" class="img " src="images/设备维护/u409.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u442" class="ax_default table_cell">
+                <img id="u442_img" class="img " src="images/设备维护/u442.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u443" class="ax_default table_cell">
+                <img id="u443_img" class="img " src="images/设备维护/u442.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u444" class="ax_default table_cell">
+                <img id="u444_img" class="img " src="images/设备维护/u442.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u445" class="ax_default table_cell">
+                <img id="u445_img" class="img " src="images/设备维护/u442.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u446" class="ax_default table_cell">
+                <img id="u446_img" class="img " src="images/设备维护/u442.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u447" class="ax_default table_cell">
+                <img id="u447_img" class="img " src="images/设备维护/u442.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u448" class="ax_default table_cell">
+                <img id="u448_img" class="img " src="images/设备维护/u442.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u449" class="ax_default table_cell">
+                <img id="u449_img" class="img " src="images/设备维护/u449.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u450" class="ax_default table_cell">
+                <img id="u450_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u451" class="ax_default table_cell">
+                <img id="u451_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u452" class="ax_default table_cell">
+                <img id="u452_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u453" class="ax_default table_cell">
+                <img id="u453_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u454" class="ax_default table_cell">
+                <img id="u454_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u455" class="ax_default table_cell">
+                <img id="u455_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u456" class="ax_default table_cell">
+                <img id="u456_img" class="img " src="images/设备维护/u402.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u457" class="ax_default table_cell">
+                <img id="u457_img" class="img " src="images/设备维护/u409.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u458" class="ax_default table_cell">
+                <img id="u458_img" class="img " src="images/设备维护/u458.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u459" class="ax_default table_cell">
+                <img id="u459_img" class="img " src="images/设备维护/u458.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u460" class="ax_default table_cell">
+                <img id="u460_img" class="img " src="images/设备维护/u458.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u461" class="ax_default table_cell">
+                <img id="u461_img" class="img " src="images/设备维护/u458.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u462" class="ax_default table_cell">
+                <img id="u462_img" class="img " src="images/设备维护/u458.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u463" class="ax_default table_cell">
+                <img id="u463_img" class="img " src="images/设备维护/u458.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u464" class="ax_default table_cell">
+                <img id="u464_img" class="img " src="images/设备维护/u458.png"/>
+              </div>
+
+              <!-- Unnamed (储存格) -->
+              <div id="u465" class="ax_default table_cell">
+                <img id="u465_img" class="img " src="images/设备维护/u465.png"/>
+              </div>
+            </div>
+
+            <!-- Unnamed (占位符) -->
+            <div id="u466" class="ax_default placeholder">
+              <img id="u466_img" class="img " src="images/设备维护/u466.png"/>
+            </div>
+
+            <!-- Unnamed (群组 ) -->
+            <div id="u467" class="ax_default" data-left="595" data-top="632" data-width="508" data-height="30">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u468" class="ax_default box_1">
+                <div id="u468_div" class=""></div>
+                <div id="u468_text" class="text ">
+                  <p><span>&lt;</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u469" class="ax_default box_1">
+                <div id="u469_div" class=""></div>
+                <div id="u469_text" class="text ">
+                  <p><span>1</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u470" class="ax_default box_1">
+                <div id="u470_div" class=""></div>
+                <div id="u470_text" class="text ">
+                  <p><span>2</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u471" class="ax_default box_1">
+                <div id="u471_div" class=""></div>
+                <div id="u471_text" class="text ">
+                  <p><span>3</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u472" class="ax_default box_1">
+                <div id="u472_div" class=""></div>
+                <div id="u472_text" class="text ">
+                  <p><span>180</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u473" class="ax_default box_1">
+                <div id="u473_div" class=""></div>
+                <div id="u473_text" class="text ">
+                  <p><span>&gt;</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u474" class="ax_default _三级标题">
+                <div id="u474_div" class=""></div>
+                <div id="u474_text" class="text ">
+                  <p><span>...</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u475" class="ax_default box_1">
+                <div id="u475_div" class=""></div>
+                <div id="u475_text" class="text ">
+                  <p><span>10条/页</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u476" class="ax_default _三级标题">
+                <div id="u476_div" class=""></div>
+                <div id="u476_text" class="text ">
+                  <p><span>&gt;</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u477" class="ax_default box_1">
+                <div id="u477_div" class=""></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u478" class="ax_default _三级标题">
+                <div id="u478_div" class=""></div>
+                <div id="u478_text" class="text ">
+                  <p><span>跳至</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u479" class="ax_default _三级标题">
+                <div id="u479_div" class=""></div>
+                <div id="u479_text" class="text ">
+                  <p><span>页</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 导出 (矩形) -->
+            <div id="u480" class="ax_default sticky_3 ax_default_hidden" data-label="导出" style="display:none; visibility: hidden">
+              <div id="u480_div" class=""></div>
+              <div id="u480_text" class="text ">
+                <p><span>导出为Excel</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u481" class="ax_default _三级标题">
+              <div id="u481_div" class=""></div>
+              <div id="u481_text" class="text ">
+                <p><span>维护状态</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u482" class="ax_default droplist">
+              <select id="u482_input">
+                <option selected value="未维护">未维护</option>
+                <option value="已维护">已维护</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u483" class="ax_default box_1">
+              <div id="u483_div" class=""></div>
+              <div id="u483_text" class="text ">
+                <p><span>修改</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u484" class="ax_default box_1">
+              <div id="u484_div" class=""></div>
+              <div id="u484_text" class="text ">
+                <p><span>删除</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (矩形) -->
+            <div id="u485" class="ax_default box_1">
+              <div id="u485_div" class=""></div>
+              <div id="u485_text" class="text ">
+                <p><span>+新增</span></p>
+              </div>
+            </div>
+
+            <!-- 维护修改说明 (矩形) -->
+            <div id="u486" class="ax_default sticky_3 ax_default_hidden" data-label="维护修改说明" style="display:none; visibility: hidden">
+              <div id="u486_div" class=""></div>
+              <div id="u486_text" class="text ">
+                <p><span>修改维护周期后对应维护时间进行修改。</span></p>
+              </div>
+            </div>
+
+            <!-- 维护修改说明 (热区) -->
+            <div id="u487" class="ax_default" data-label="维护修改说明">
+            </div>
+
+            <!-- 修改 (群组 ) -->
+            <div id="u488" class="ax_default ax_default_hidden" data-label="修改" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u489" class="ax_default box_1">
+                <div id="u489_div" class=""></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u490" class="ax_default _三级标题">
+                <div id="u490_div" class=""></div>
+                <div id="u490_text" class="text ">
+                  <p><span>维护周期：</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (文字框) -->
+              <div id="u491" class="ax_default text_field">
+                <input id="u491_input" type="text" value=""/>
+              </div>
+
+              <!-- Unnamed (水准线) -->
+              <div id="u492" class="ax_default line">
+                <img id="u492_img" class="img " src="images/设备信息/u154.png"/>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u493" class="ax_default _三级标题">
+                <div id="u493_div" class=""></div>
+                <div id="u493_text" class="text ">
+                  <p><span>修改</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u494" class="ax_default box_1">
+                <div id="u494_div" class=""></div>
+                <div id="u494_text" class="text ">
+                  <p><span>取消</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u495" class="ax_default box_1">
+                <div id="u495_div" class=""></div>
+                <div id="u495_text" class="text ">
+                  <p><span>确定</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (形状) -->
+              <div id="u496" class="ax_default icon">
+                <img id="u496_img" class="img " src="images/设备信息/u158.png"/>
+              </div>
+
+              <!-- Unnamed (水准线) -->
+              <div id="u497" class="ax_default line">
+                <img id="u497_img" class="img " src="images/设备信息/u154.png"/>
+              </div>
+
+              <!-- Unnamed (热区) -->
+              <div id="u498" class="ax_default">
+              </div>
+            </div>
+
+            <!-- 新增 (群组 ) -->
+            <div id="u499" class="ax_default ax_default_hidden" data-label="新增" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u500" class="ax_default box_1">
+                <div id="u500_div" class=""></div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u501" class="ax_default _三级标题">
+                <div id="u501_div" class=""></div>
+                <div id="u501_text" class="text ">
+                  <p><span>上次维护时间：</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (文字框) -->
+              <div id="u502" class="ax_default text_field">
+                <input id="u502_input" type="text" value=""/>
+              </div>
+
+              <!-- Unnamed (水准线) -->
+              <div id="u503" class="ax_default line">
+                <img id="u503_img" class="img " src="images/设备信息/u154.png"/>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u504" class="ax_default _三级标题">
+                <div id="u504_div" class=""></div>
+                <div id="u504_text" class="text ">
+                  <p><span>新增</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u505" class="ax_default box_1">
+                <div id="u505_div" class=""></div>
+                <div id="u505_text" class="text ">
+                  <p><span>取消</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u506" class="ax_default box_1">
+                <div id="u506_div" class=""></div>
+                <div id="u506_text" class="text ">
+                  <p><span>确定</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (形状) -->
+              <div id="u507" class="ax_default icon">
+                <img id="u507_img" class="img " src="images/设备信息/u158.png"/>
+              </div>
+
+              <!-- Unnamed (水准线) -->
+              <div id="u508" class="ax_default line">
+                <img id="u508_img" class="img " src="images/设备信息/u154.png"/>
+              </div>
+
+              <!-- Unnamed (热区) -->
+              <div id="u509" class="ax_default">
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u510" class="ax_default _三级标题">
+                <div id="u510_div" class=""></div>
+                <div id="u510_text" class="text ">
+                  <p><span>维护类型：</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u511" class="ax_default _三级标题">
+                <div id="u511_div" class=""></div>
+                <div id="u511_text" class="text ">
+                  <p><span>应用日期：</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (文字框) -->
+              <div id="u512" class="ax_default text_field">
+                <input id="u512_input" type="text" value=""/>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u513" class="ax_default _三级标题">
+                <div id="u513_div" class=""></div>
+                <div id="u513_text" class="text ">
+                  <p><span>维护周期：</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (文字框) -->
+              <div id="u514" class="ax_default text_field">
+                <input id="u514_input" type="text" value=""/>
+              </div>
+
+              <!-- Unnamed (下拉列表框) -->
+              <div id="u515" class="ax_default droplist">
+                <select id="u515_input">
+                  <option selected value="更换滤材">更换滤材</option>
+                  <option value="清洗喷嘴">清洗喷嘴</option>
+                  <option value="检查管道">检查管道</option>
+                  <option value="...">...</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Unnamed (热区) -->
+            <div id="u516" class="ax_default">
+            </div>
+
+            <!-- Unnamed (热区) -->
+            <div id="u517" class="ax_default">
+            </div>
+
+            <!-- 维护状态 (矩形) -->
+            <div id="u518" class="ax_default sticky_3 ax_default_hidden" data-label="维护状态" style="display:none; visibility: hidden">
+              <div id="u518_div" class=""></div>
+              <div id="u518_text" class="text ">
+                <p><span>未维护状态对应需要维护，已维护状态对应不需要维护。</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (热区) -->
+            <div id="u519" class="ax_default">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
